@@ -1,17 +1,17 @@
 Arguments: 
-  /home/jiangchangxiong/software/node18/bin/node /home/jiangchangxiong/software/node18/bin/yarn add arco-design-pro-vue
+  E:\software\multinodejs\node.exe E:\nodeglobal\node_modules\yarn\bin\yarn.js install
 
 PATH: 
-  /home/jiangchangxiong/anaconda3/bin:/home/jiangchangxiong/anaconda3/condabin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sbin:/usr/sbin:/home/jiangchangxiong/software/JDK17/bin:/home/jiangchangxiong/software/node18/bin:/home/jiangchangxiong/software/maven39/bin
+  E:\software\ZenTao\zbox\nssm\win32;C:\Program Files\PlasticSCM5\server;C:\Program Files\PlasticSCM5\client;E:\software\Python37\Scripts\;E:\software\Python37\;E:\software\VMware\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\software\TortoiseSVN\bin;E:\software\Git\cmd;E:\software\Maven\bin;E:\software\JDKs\JDK1.8\bin;E:\software\VisualSVN\bin;E:\workspace\go\bin;E:\nodeglobal;E:\software\VSCode\bin;E:\software\WechatIDE\dll;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\software\Masscan;E:\software\protoc\bin;E:\software\Anaconda3;E:\software\Anaconda3\Scripts;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;E:\software\Tesseract-OCR;E:\software\Python27;C:\Prog;E:\software\nvm\node_global;E:\software\Go\bin;C:\Program Files\Docker\Docker\resources\bin;E:\software\flutter\bin;C:\Users\Jiang\.windows-build-tools\python27\;C:\Users\Jiang\.cargo\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;E:\software\Python310\Scripts\;E:\software\Python310\;C:\Users\Jiang\AppData\Local\Microsoft\WindowsApps;C:\Users\Jiang\AppData\Roaming\npm;E:\workspace\go\bin;C:\Users\Jiang\AppData\Local\GitHubDesktop\bin;E:\software\Nmap;E:\software\nvm;E:\software\multinodejs;E:\software\QQGameTempest\Hall.57821\;E:\software\DevEcoStudio\bin;C:\Users\Jiang\.dotnet\tools;;E:\workspace\jiangchangxiong\x\xconsole\node_modules\.bin
 
 Yarn version: 
-  1.22.19
+  1.22.18
 
 Node version: 
-  18.14.2
+  16.14.2
 
 Platform: 
-  linux x64
+  win32 x64
 
 Trace: 
   Error: read ECONNRESET
@@ -19,11 +19,11 @@ Trace:
 
 npm manifest: 
   {
-    "name": "arco-design-pro-vue",
-    "description": "Arco Design Pro for Vue",
-    "version": "1.0.0",
+    "name": "xconsole",
+    "description": "X平台控制台项目",
+    "version": "0.0.1",
     "private": true,
-    "author": "ArcoDesign Team",
+    "author": "XTeam",
     "license": "MIT",
     "scripts": {
       "dev": "vite --config ./config/vite.config.dev.ts",

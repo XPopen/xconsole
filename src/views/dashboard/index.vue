@@ -1,46 +1,11 @@
 <template>
   <div class="container">
-    <div class="left-side">
-      <div class="panel">
-        <Banner />
-        <DataPanel />
-      </div>
-      <a-grid :cols="24" :col-gap="16" :row-gap="16" style="margin-top: 16px">
-        <a-grid-item
-          :span="{ xs: 24, sm: 24, md: 24, lg: 24, xl: 24, xxl: 24 }"
-        >
-          <Todo />
-        </a-grid-item>
-      </a-grid>
-    </div>
-    <div class="right-side">
-      <a-grid :cols="24" :row-gap="16">
-        <a-grid-item :span="24">
-          <div class="panel moduler-wrap">
-            <QuickOperation />
-            <RecentlyVisited />
-          </div>
-        </a-grid-item>
-        <a-grid-item class="panel" :span="24">
-          <Announcement />
-        </a-grid-item>
-        <a-grid-item class="panel" :span="24">
-          <Docs />
-        </a-grid-item>
-      </a-grid>
-    </div>
+    <Applications />
   </div>
 </template>
 
 <script lang="ts" setup>
-  import Banner from './components/banner.vue';
-  import DataPanel from './components/data-panel.vue';
-  import PopularContent from './components/popular-content.vue';
-  import Todo from './components/todo.vue';
-  import RecentlyVisited from './components/recently-visited.vue';
-  import QuickOperation from './components/quick-operation.vue';
-  import Announcement from './components/announcement.vue';
-  import Docs from './components/docs.vue';
+  import Applications from './components/applications.vue';
 </script>
 
 <script lang="ts">
@@ -52,7 +17,8 @@
 <style lang="less" scoped>
   .container {
     display: flex;
-    padding: 16px 20px;
+    min-height: 75vh;
+    padding: 16px;
     padding-bottom: 0;
     background-color: var(--color-fill-2);
   }

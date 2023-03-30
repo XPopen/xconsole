@@ -156,9 +156,6 @@
   const handleToggleTheme = () => {
     toggleTheme();
   };
-  const setVisible = () => {
-    appStore.updateSettings({ globalSettings: true });
-  };
   const triggerBtn = ref();
   const handleLogout = () => {
     logout();
